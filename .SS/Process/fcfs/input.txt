@@ -1,0 +1,4 @@
+Enter the number of processes to schedule: 3
+Enter arrival time and burst time respectively of process 0: 0 5
+Enter arrival time and burst time respectively of process 1: 1 3
+Enter arrival time and burst time respectively of process 2: 2 4

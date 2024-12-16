@@ -1,0 +1,19 @@
+MOV AL, 00H
+MOV BL, [1500H]
+MOV SI, 2000H
+MOV CL, [SI]
+
+L2:
+    INC SI
+    CMP BL, [SI]
+    JNE L1
+    INC AL
+    JMP L3
+
+L1:
+    DEC CL
+    JNZ L2
+
+L3:
+    MOV [3000H], AL
+    HLT

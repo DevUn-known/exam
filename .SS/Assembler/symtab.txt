@@ -1,0 +1,4 @@
+START	0
+NUM	9
+SUM	c
+RESULT	f

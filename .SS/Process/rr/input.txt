@@ -1,0 +1,5 @@
+Enter time quantum: 4
+Enter the number of processes to schedule: 3
+Enter the at & bt of process 1: 0 6
+Enter the at & bt of process 2: 1 5
+Enter the at & bt of process 3: 2 3
